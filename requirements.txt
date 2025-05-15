@@ -6,6 +6,7 @@ speechrecognition
 pyttsx3
 pillow
 duckduckgo-search
+pyaudio
 # pyaudio is required for microphone input.
 # ⚠️ Installing it directly may fail without PortAudio system dependencies.
 # Follow platform-specific steps below before installing:
