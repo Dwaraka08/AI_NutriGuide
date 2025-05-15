@@ -1,5 +1,5 @@
 pipwin
-pyaudio
+path_to_downloaded_whl_file.whl
 SpeechRecognition 
 pyttsx3
 streamlit
