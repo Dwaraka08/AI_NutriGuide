@@ -1,13 +1,20 @@
-pipwin
-path_to_downloaded_whl_file.whl
-SpeechRecognition 
-pyttsx3
 streamlit
+google-generativeai
 litellm
 smolagents
-duckduckgo-search
-Pillow
-google-generativeai
+speechrecognition
+pyttsx3
+pillow
+
+# pyaudio is required for microphone input.
+# ⚠️ Installing it directly may fail without PortAudio system dependencies.
+# Follow platform-specific steps below before installing:
+# - Ubuntu/Debian: sudo apt install portaudio19-dev python3-pyaudio
+# - macOS: brew install portaudio
+# - Windows: Download the .whl file from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+# Then install it with: pip install filename.whl
+# Only uncomment below if system dependencies are met:
+# pyaudio
 
 
 
