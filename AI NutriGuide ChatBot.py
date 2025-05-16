@@ -208,6 +208,7 @@ col1, col2 = st.columns([0.8, 0.2])
 
 with col2:
     if st.button("🎤Use Microphone"):
+        st.toast("Listening.....")
         speech_input = recognition_speech()
         if speech_input:
             user_prompt = speech_input
