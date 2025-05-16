@@ -6,15 +6,6 @@ speechrecognition
 pyttsx3
 pillow
 duckduckgo-search
-#pyaudio
-# pyaudio is required for microphone input.
-# ⚠️ Installing it directly may fail without PortAudio system dependencies.
-# Follow platform-specific steps below before installing:
-# - Ubuntu/Debian: sudo apt install portaudio19-dev python3-pyaudio
-# - macOS: brew install portaudio
-Download the .whl file from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
-pip install filename.whl
-# Only uncomment below if system dependencies are met:
 pyaudio
 
 
